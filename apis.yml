@@ -1,11 +1,15 @@
 aid: distroless
 name: Distroless
 description: >-
-  Distroless container images contain only the application and its runtime dependencies, without package managers or shells.
+  Distroless images by Google contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities to minimize attack surface and image size.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Containers
+  - Container Images
+  - Security
+  - Google
+  - Cloud Native
 url: >-
   https://raw.githubusercontent.com/api-evangelist/distroless/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -15,14 +19,25 @@ apis:
   - aid: distroless:distroless
     name: Distroless
     description: >-
-      Distroless container images contain only the application and its runtime dependencies, without package managers or shells.
-    humanURL: https://github.com/api-evangelist/distroless
+      Distroless images by Google contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities to minimize attack surface and image size.
+    humanURL: https://github.com/GoogleContainerTools/distroless
     tags:
       - Containers
-    properties: []
+      - Container Images
+      - Security
+      - Google
+    properties:
+      - type: Documentation
+        url: https://github.com/GoogleContainerTools/distroless/blob/main/README.md
+      - type: Getting Started
+        url: https://github.com/GoogleContainerTools/distroless/blob/main/README.md#how-do-i-use-distroless-images
 common:
   - type: Website
-    url: https://github.com/api-evangelist/distroless
+    url: https://github.com/GoogleContainerTools/distroless
+  - type: GitHub Organization
+    url: https://github.com/GoogleContainerTools
+  - type: Container Registry
+    url: https://gcr.io/distroless
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
