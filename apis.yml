@@ -5,11 +5,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Containers
-  - Container Images
-  - Security
-  - Google
   - Cloud Native
+  - Container Images
+  - Containers
+  - Google
+  - Security
 url: >-
   https://raw.githubusercontent.com/api-evangelist/distroless/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -22,10 +22,10 @@ apis:
       Distroless images by Google contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities to minimize attack surface and image size.
     humanURL: https://github.com/GoogleContainerTools/distroless
     tags:
-      - Containers
       - Container Images
-      - Security
+      - Containers
       - Google
+      - Security
     properties:
       - type: Documentation
         url: https://github.com/GoogleContainerTools/distroless/blob/main/README.md
