@@ -38,7 +38,7 @@ apis:
     properties:
       - type: Documentation
         url: https://github.com/GoogleContainerTools/distroless/blob/main/README.md
-      - type: Getting Started
+      - type: GettingStarted
         url: https://github.com/GoogleContainerTools/distroless/blob/main/README.md#how-do-i-use-distroless-images
       - type: SourceCode
         url: https://github.com/GoogleContainerTools/distroless
@@ -47,7 +47,7 @@ apis:
 common:
   - type: Website
     url: https://github.com/GoogleContainerTools/distroless
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/GoogleContainerTools
   - type: Container Registry
     url: https://gcr.io/distroless
