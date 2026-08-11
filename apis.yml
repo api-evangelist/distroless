@@ -57,6 +57,13 @@ apis:
       - type: Container Registry
         url: https://gcr.io/distroless
 common:
+  - type: SecurityPolicy
+    url: https://github.com/GoogleContainerTools/distroless/blob/main/SECURITY.md
+  - type: ContributionGuide
+    url: https://github.com/GoogleContainerTools/distroless/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/GoogleContainerTools/distroless/blob/main/LICENSE
   - type: Website
     url: https://github.com/GoogleContainerTools/distroless
   - type: GitHubOrganization
