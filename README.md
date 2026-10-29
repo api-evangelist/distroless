@@ -64,40 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-This repository tracks resources for Google's Distroless container images.
+Distroless images by Google contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities to minimize attack surface and image size. The smallest variant (gcr.io/distroless/static-debian12) is roughly 2 MB. Distroless ships base images for static binaries, glibc-based binaries, C/C++, Java (17, 21, 25), Node.js (22, 24), and Python 3, with multi-architecture support including amd64, arm64, arm, s390x, ppc64le, and riscv64. Adopters include Kubernetes, Knative, Tekton, and Teleport.
 
-Distroless images contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities to minimize attack surface and image size. The smallest variant (`gcr.io/distroless/static-debian12`) is roughly 2 MB. Distroless ships base images for static binaries, glibc-based binaries, C/C++, Java (17, 21, 25), Node.js (22, 24), and Python 3, with multi-architecture support including amd64, arm64, arm, s390x, ppc64le, and riscv64. Adopters include Kubernetes, Knative, Tekton, and Teleport.
+**Areas:** Cloud-Native · Container Images · Containers · Google · Security
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/distroless/refs/heads/main/apis.yml)
+## Distroless on APIs.io
 
-## Scope
+Everything profiled for Distroless is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/distroless/](https://apis.io/providers/distroless/)** — or go straight to one of the APIs or properties below.
 
-- **Type:** Index
-- **Tags:** Cloud Native, Container Images, Containers, Google, Security
+### APIs (1)
 
-## Resources
+- [Distroless](https://apis.io/apis/distroless/distroless/) — Distroless images by Google contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities…
 
-### Distroless
+### Published properties
 
-Distroless images by Google contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities to minimize attack surface and image size.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** https://github.com/GoogleContainerTools/distroless
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://github.com/GoogleContainerTools/distroless/blob/main/README.md)
-- [Getting Started](https://github.com/GoogleContainerTools/distroless/blob/main/README.md#how-do-i-use-distroless-images)
-- [SourceCode](https://github.com/GoogleContainerTools/distroless)
-- [Container Registry](https://gcr.io/distroless)
+- [Distroless Plans Pricing](https://apis.io/plans/distroless/distroless-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Distroless Rate Limits](https://apis.io/rate-limits/distroless/distroless-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Distroless Finops](https://apis.io/finops/distroless/distroless-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://github.com/GoogleContainerTools/distroless)
-- [GitHub Organization](https://github.com/GoogleContainerTools)
-- [Container Registry](https://gcr.io/distroless)
-- [Issues](https://github.com/GoogleContainerTools/distroless/issues)
+- [GitHub](https://github.com/GoogleContainerTools)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Kin Score 17.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/distroless/](https://apis.io/providers/distroless/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Distroless: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/distroless/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
